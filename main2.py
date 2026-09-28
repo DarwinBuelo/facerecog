@@ -7,7 +7,7 @@ encoding_file = "biden_encoding.npy"
 # 1. Check if the encoding is already saved
 if os.path.exists(encoding_file):
     print("Loading encoding from file...")
-    biden_encoding = np.load(encoding_file)
+    biden_encoding = np.load(encoding_file) # load encoding from .npy file
 else:
     print("Calculating encoding from image...")
     known_image = face_recognition.load_image_file("img/test.jpg")

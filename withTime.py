@@ -1,3 +1,5 @@
+# same with main2.py but with time benchmarking to show the speedup of loading from file vs calculating from scratch
+
 import os
 import time
 import face_recognition
